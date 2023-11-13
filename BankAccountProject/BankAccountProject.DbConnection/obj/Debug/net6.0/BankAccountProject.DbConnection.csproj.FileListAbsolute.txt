@@ -1,0 +1,17 @@
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\bin\Debug\net6.0\BankAccountProject.DbConnection.deps.json
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\bin\Debug\net6.0\BankAccountProject.DbConnection.runtimeconfig.json
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\bin\Debug\net6.0\BankAccountProject.DbConnection.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\bin\Debug\net6.0\BankAccountProject.DbConnection.pdb
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\bin\Debug\net6.0\BankAccountProject.Entities.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\bin\Debug\net6.0\BankAccountProject.Entities.pdb
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.csproj.AssemblyReference.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.GeneratedMSBuildEditorConfig.editorconfig
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.AssemblyInfoInputs.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.AssemblyInfo.cs
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.csproj.CoreCompileInputs.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.csproj.CopyComplete
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\refint\BankAccountProject.DbConnection.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.pdb
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\BankAccountProject.DbConnection.genruntimeconfig.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.DbConnection\obj\Debug\net6.0\ref\BankAccountProject.DbConnection.dll

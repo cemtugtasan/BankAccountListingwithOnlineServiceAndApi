@@ -1,0 +1,12 @@
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\bin\Release\net6.0\BankAccountProject.Entities.deps.json
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\bin\Release\net6.0\BankAccountProject.Entities.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\bin\Release\net6.0\BankAccountProject.Entities.pdb
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.csproj.AssemblyReference.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.AssemblyInfoInputs.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.AssemblyInfo.cs
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.csproj.CoreCompileInputs.cache
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\refint\BankAccountProject.Entities.dll
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\BankAccountProject.Entities.pdb
+D:\yazılım çalışmaları\Tasks\BankAccountProject\BankAccountProject.Entities\obj\Release\net6.0\ref\BankAccountProject.Entities.dll

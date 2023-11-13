@@ -1,0 +1,87 @@
+﻿@model IEnumerable<BankAccountProject.Dtos.BankAccountDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hesap Numaraları</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Genişlet
+            </th>
+            <th>
+                Hesap Kodu
+            </th>
+            <th>
+                Toplam Borç
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            string previousThreeDigits = null;
+            string previousFiveDigits = null;
+        }
+
+        @foreach (var item in Model.OrderBy(x=>x.hesap_kodu))
+        {
+            string currentThreeDigits = item.hesap_kodu.Substring(0, 3);
+            string currentFiveDigits = item.hesap_kodu.Substring(0, 6);
+
+            if (previousThreeDigits != currentThreeDigits)
+            {
+            // Yeni bir grup başladı, + butonu ve grup başlığı ekle
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-secondary" onclick="ShowSubTable('@currentThreeDigits')">+</button>
+                    </td>
+                    <td>
+                        @currentThreeDigits
+                    </td>
+                    <td>
+                        @Model.Where(x => x.hesap_kodu.StartsWith(currentThreeDigits) && x.hesap_kodu.Length == 6).Sum(x => x.borc)
+                    </td>
+                </tr>
+
+                previousThreeDigits = currentThreeDigits;
+            }
+            if (previousFiveDigits != currentFiveDigits)
+            {
+                <tr style="display:none;" data-group="@currentThreeDigits">
+                    <td>
+                        <button type="button" class="btn btn-success" onclick="ShowSubTable('@currentFiveDigits')">+</button>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.hesap_kodu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.borc)
+                    </td>
+                </tr>
+                previousFiveDigits = currentFiveDigits;
+                continue;
+            }
+            <tr style="display:none;" data-group="@currentFiveDigits">
+                <td>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.hesap_kodu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.borc)
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+<script>
+    function ShowSubTable(className) {
+        // İlgili grupları göster veya gizle
+        $('[data-group="' + className + '"]').toggle();
+    }
+</script>
